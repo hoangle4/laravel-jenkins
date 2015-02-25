@@ -1,6 +1,8 @@
+(under development, not use)
+
 # laravel-jenkins
 
-Boilerplate for setting up continuous integration of [Laravel 4](http://www.laravel.com/) using [Jenkins](http://www.jenkins-ci.org)
+Boilerplate for setting up continuous integration of [Laravel 5](http://laravel.com/) using [Jenkins](http://www.jenkins-ci.org)
 
 We did not want to delete and recreate the vendor folder everytime that the script was ran, so "composer update" is ran if the vendor folder exist--otherwise "composer install" is ran.  In order to force a clean vendor folder, you can run one of the builds with the "-clean"…
 
